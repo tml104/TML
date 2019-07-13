@@ -15,7 +15,7 @@ observatory
 weapon
 
 
-//记分板名称（+显示名称）
+//记分板名称，并且附上功能简要说明
 
 accel 档位
 
@@ -38,5 +38,57 @@ Const 常数（调用方法举例：operation Mk Obj1 += [常数值] Const）
 
 //tag 名称，并且附上功能简要说明
 
+inGame 玩家在游戏中（最基本的tag）
 
-//Marker 名称，并且附上功能简要说明
+mod_movement 玩家进入模块：移动
+
+mod_weapon 玩家进入模块：武器
+
+mod_observatory 玩家进入模块：瞭望
+
+left 舰首向左
+
+right 舰首向右
+
+up 舰首向上
+
+down 舰首向下
+
+speed_up 加速
+
+speed_down 减速
+
+brake 刹车
+
+shoot_plasma 武器：发射电浆炮
+
+shoot_laser 武器：发射激光
+
+auto 武器：激光自动瞄准
+
+summoning 给一个刚生成的实体继承玩家朝向用
+
+latest 最新生成的实体
+
+target 激光的目标（临时）
+
+laserMk 激光的目标
+
+missile 导弹类子弹
+
+hit_Mk 激光击中目标
+
+hit_vessel 激光击中舰艇本身
+
+//实体名称，并且附上功能简要说明
+
+vessel 舰艇
+
+vesselM 舰艇移动用
+
+accelMk 加速用，位于(0.0, 0.0, 0.0)
+
+plasma 电浆炮子弹
+
+laser 激光子弹
+
