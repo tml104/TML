@@ -6,7 +6,7 @@ Hail the Pillows
 
 minecraft
 
-system
+_system
 
 movement
 
@@ -16,6 +16,8 @@ weapon
 
 
 **##记分板名称，并且附上功能简要说明**
+
+Shift 潜行记录
 
 accel 档位
 
@@ -34,6 +36,14 @@ MotionZT 舰艇Motion中介
 brakeTimer 延长刹车时间
 
 Const 常数（调用方法举例：operation Mk Obj1 += [常数值] Const）
+
+RotationX 视角
+
+RotationY 视角
+
+RotationXT 视角中介
+
+RotationYT 视角中介
 
 
 **##tag 名称，并且附上功能简要说明**
@@ -80,7 +90,13 @@ hit_Mk 激光击中目标
 
 hit_vessel 激光击中舰艇本身
 
+control_keyboard 移动：键盘操作
+
+control_mouse 移动：鼠标操作
+
 **##实体名称，并且附上功能简要说明**
+
+system 核心 Marker，用于记录大多数与游戏有关的数据
 
 vessel 舰艇
 
